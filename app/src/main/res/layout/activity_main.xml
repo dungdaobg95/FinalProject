@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFFFFFFF"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorAccent"
+    >
+
+    <ImageButton
+        android:layout_gravity="center"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/button"
+        android:id="@+id/imageBTN"
+        android:onClick="enterAlbum"
+        />
+
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Gallery Version: 1.0"/>
+    <TextView
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Đào Khánh Dũng, Nguyễn Mạnh Quyền, Vũ Xuân Tường"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add_photo"
+        android:icon="@drawable/add_albums"
+        android:title="Add Photo"
+        android:showAsAction="always|withText"
+        />
+    <item android:id="@+id/add_music"
+        android:icon="@drawable/add_albums"
+        android:title="Add Music"
+        android:showAsAction="always|withText"
+        />
+    <item android:id="@+id/slide_show"
+        android:icon="@drawable/add_albums"
+        android:title="Slide Show"
+        android:showAsAction="always|withText"
+        />
+</menu>

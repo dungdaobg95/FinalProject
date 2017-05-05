@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/enter_albums"
+        android:icon="@drawable/photo"
+        android:title="Enter Album"
+        android:showAsAction="always|withText"
+        />
+</menu>
